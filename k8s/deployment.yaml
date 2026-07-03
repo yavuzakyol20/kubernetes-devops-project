@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: devops-app
-          image: kubernetes-devops-app:v1
+          image: kubernetes-devops-app:v2
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8000
