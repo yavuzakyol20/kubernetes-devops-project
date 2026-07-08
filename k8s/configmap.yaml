@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: devops-app-config
+data:
+  APP_NAME: "Kubernetes DevOps Project"
+  APP_ENV: "development"
+  APP_VERSION: "2.0.0"
